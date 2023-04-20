@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+
+.navbar-brand {
+  color: #0d6efd !important;
+}
+
+#beranda {
+  color: #0d6efd !important;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+}
+
+li {
+  padding-left: 10px;
+}
+
+div.jumbotron {
+  min-height: 850px;
+  margin-top: 135px;
+}
+
+img.jumbotron {
+  width: 800px;
+  margin-top: 85px;
+  margin-left: 100px;
+}
+
+h1.fw-bold {
+  font-size: 56px;
+  margin-top: 260px;
+}
+
+h1.fw-normal {
+  font-size: 56px;
+}
+
+div.tentang {
+  min-height: 750px;
+  background-color: #0d6efd;
+}
+
+div h2.pb-5 {
+  margin-top: 50px;
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.tentang p {
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 150px;
+}
+
+.galeri h2 {
+  font-size: 48px;
+}
+
+.pengurus {
+  color: #ffffff;
+  background-color: #0d6efd;
+}
+
+.pengurus h2 {
+  font-size: 40px;
+}
+
+.pengurus p {
+  font-size: 18px;
+}
+
+.pengurus img {
+  width: 200px;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+.fb {
+  color: black;
+  transition: 0.3s;
+}
+
+.fb:hover {
+  color: #0d6efd;
+}
+
+.ig {
+  color: black;
+  transition: 0.3s;
+}
+
+.ig:hover {
+  color: #dd2a7b;
+}
+
+.creator {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.creator:hover {
+  color: #0d6efd;
+}
+
+h1.fw-normal {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+}
+
+h1.fw-normal span.typed-text {
+  font-weight: normal;
+  color: #000;
+}
+
+h1.fw-normal span.cursor {
+  display: inline-block;
+  background-color: #000;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+h1.fw-normal span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1.fw-bold {
+    margin-top: 100px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  h1.fw-normal {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  img.jumbotron {
+    width: 100%;
+    margin: 100px auto 150px auto;
+  }
+}
